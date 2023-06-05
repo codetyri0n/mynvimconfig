@@ -18,8 +18,8 @@ require("nvim-tree").setup({
 	select_prompts = false,
 	view = {
 		adaptive_size = false,
-		centralize_selection = true,
-		width = 40,
+		centralize_selection = false,
+		width = 25,
 		hide_root_folder = false,
 		side = "left",
 		preserve_window_proportions = false,
@@ -52,7 +52,7 @@ require("nvim-tree").setup({
 		full_name = true,
 		highlight_opened_files = "none",
 		root_folder_label = false,
-		indent_width = 4,
+		indent_width = 2,
 		indent_markers = {
 			enable = true,
 			inline_arrows = true,
@@ -164,7 +164,7 @@ require("nvim-tree").setup({
 			},
 		},
 		open_file = {
-			quit_on_open = true,
+			quit_on_open = false,
 			resize_window = true,
 			window_picker = {
 				enable = true,
