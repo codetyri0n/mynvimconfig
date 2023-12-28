@@ -32,6 +32,8 @@ return packer.startup(function(use)
 
 	use("ellisonleao/gruvbox.nvim")
 
+	use("JuliaEditorSupport/julia-vim")
+
 	-- use("morhetz/gruvbox")
 
 	-- use("sainnhe/gruvbox-material")
@@ -117,7 +119,7 @@ return packer.startup(function(use)
 	})
 
 	-- weather
-	use("bitspaceorg/weather-reporto.nvim")
+	--use("bitspaceorg/weather-reporto.nvim")
 
 	if packer_bootstrap then
 		require("packer").sync()

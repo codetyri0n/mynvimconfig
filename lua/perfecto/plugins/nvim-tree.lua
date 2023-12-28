@@ -14,24 +14,24 @@ require("nvim-tree").setup({
 	reload_on_bufenter = false,
 	respect_buf_cwd = false,
 	on_attach = "disable",
-	remove_keymaps = false,
+	-- remove_keymaps = false,
 	select_prompts = false,
 	view = {
 		adaptive_size = false,
 		centralize_selection = false,
 		width = 25,
-		hide_root_folder = false,
+		--	hide_root_folder = false,
 		side = "left",
 		preserve_window_proportions = false,
 		number = false,
 		relativenumber = false,
 		signcolumn = "yes",
-		mappings = {
-			custom_only = false,
-			list = {
-				-- user mappings go here
-			},
-		},
+		-- mappings = {
+		-- 	custom_only = false,
+		-- 	list = {
+		-- 		-- user mappings go here
+		-- 	},
+		-- },
 		float = {
 			enable = false,
 			quit_on_focus_loss = true,

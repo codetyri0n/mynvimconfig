@@ -1,7 +1,7 @@
 local alpha = require("alpha")
 local dashboard = require("alpha.themes.dashboard")
 local datetime = os.date("󰃭 %d-%m-%Y   %H:%M:%S")
-local weather = require("weather")
+--local weather = require("weather")
 
 dashboard.section.header.val = {
 	"",
@@ -9,14 +9,29 @@ dashboard.section.header.val = {
 	"",
 	"",
 	"",
-	"         ███╗   ██╗███████╗ ██████╗ ██╗   ██╗██╗███╗   ███╗",
-	"         ████╗  ██║██╔════╝██╔═══██╗██║   ██║██║████╗ ████║",
-	"         ██╔██╗ ██║█████╗  ██║   ██║██║   ██║██║██╔████╔██║",
-	"         ██║╚██╗██║██╔══╝  ██║   ██║╚██╗ ██╔╝██║██║╚██╔╝██║",
-	"         ██║ ╚████║███████╗╚██████╔╝ ╚████╔╝ ██║██║ ╚═╝ ██║",
-	"         ╚═╝  ╚═══╝╚══════╝ ╚═════╝   ╚═══╝  ╚═╝╚═╝     ╚═╝",
+
+	"NNNNNNNN        NNNNNNNNEEEEEEEEEEEEEEEEEEEEEE     OOOOOOOOO     VVVVVVVV           VVVVVVVVIIIIIIIIIIMMMMMMMM               MMMMMMMM",
+	"N:::::::N       N::::::NE::::::::::::::::::::E   OO:::::::::OO   V::::::V           V::::::VI::::::::IM:::::::M             M:::::::M",
+	"N::::::::N      N::::::NE::::::::::::::::::::E OO:::::::::::::OO V::::::V           V::::::VI::::::::IM::::::::M           M::::::::M",
+	"N:::::::::N     N::::::NEE::::::EEEEEEEEE::::EO:::::::OOO:::::::OV::::::V           V::::::VII::::::IIM:::::::::M         M:::::::::M",
+	"N::::::::::N    N::::::N  E:::::E       EEEEEEO::::::O   O::::::O V:::::V           V:::::V   I::::I  M::::::::::M       M::::::::::M",
+	"N:::::::::::N   N::::::N  E:::::E             O:::::O     O:::::O  V:::::V         V:::::V    I::::I  M:::::::::::M     M:::::::::::M",
+	"N:::::::N::::N  N::::::N  E::::::EEEEEEEEEE   O:::::O     O:::::O   V:::::V       V:::::V     I::::I  M:::::::M::::M   M::::M:::::::M",
+	"N::::::N N::::N N::::::N  E:::::::::::::::E   O:::::O     O:::::O    V:::::V     V:::::V      I::::I  M::::::M M::::M M::::M M::::::M",
+	"N::::::N  N::::N:::::::N  E:::::::::::::::E   O:::::O     O:::::O     V:::::V   V:::::V       I::::I  M::::::M  M::::M::::M  M::::::M",
+	"N::::::N   N:::::::::::N  E::::::EEEEEEEEEE   O:::::O     O:::::O      V:::::V V:::::V        I::::I  M::::::M   M:::::::M   M::::::M",
+	"N::::::N    N::::::::::N  E:::::E             O:::::O     O:::::O       V:::::V:::::V         I::::I  M::::::M    M:::::M    M::::::M",
+	"N::::::N     N:::::::::N  E:::::E       EEEEEEO::::::O   O::::::O        V:::::::::V          I::::I  M::::::M     MMMMM     M::::::M",
+	"N::::::N      N::::::::NEE::::::EEEEEEEE:::::EO:::::::OOO:::::::O         V:::::::V         II::::::IIM::::::M               M::::::M",
+	"N::::::N       N:::::::NE::::::::::::::::::::E OO:::::::::::::OO           V:::::V          I::::::::IM::::::M               M::::::M",
+	"N::::::N        N::::::NE::::::::::::::::::::E   OO:::::::::OO              V:::V           I::::::::IM::::::M               M::::::M",
+	"NNNNNNNN         NNNNNNNEEEEEEEEEEEEEEEEEEEEEE     OOOOOOOOO                 VVV            IIIIIIIIIIMMMMMMMM               MMMMMMMM",
 	"",
-	"GHOST COMPUTER | " .. datetime .. " | " .. weather.strfeed .. " | " .. weather.cond,
+	"",
+	"",
+	"",
+
+	"                                              DEVIL'S WORKSHOP|" .. datetime,
 }
 
 dashboard.section.buttons.val = {
@@ -27,9 +42,9 @@ dashboard.section.buttons.val = {
 }
 
 dashboard.section.footer.val = {
-	"The One Who Took The First Napkin Determines Everything In This World",
+	"       No matter how hard or impossible it is, never lose sight of your goal. – Monkey D Luffy ",
 	"",
-	"      Only The Results! In This World, Only The Results Matter!",
+	"",
 }
 
 alpha.setup(dashboard.opts)

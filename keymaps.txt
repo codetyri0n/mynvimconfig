@@ -158,7 +158,7 @@ N                             - previous occurrence of search pattern
 
 --> TransparentToggle
 
-   > bt          - Transparent background Toggle
+   > bt          - Transparent background Togglne #ffffff
 
 
 
