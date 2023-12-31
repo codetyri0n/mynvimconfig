@@ -1,12 +1,4 @@
-# PERFECTO-NVIM: Your Perfect Companion for Effortless Editing in Neovim
-
-PERFECTO-NVIM is a meticulously crafted Neovim configuration repository designed to elevate your coding experience to new heights. With a seamless integration of plugins, keybindings, and settings, PERFECTO-NVIM offers a powerful and efficient editing environment for developers who demand perfection.
-
-Featuring a thoughtfully curated collection of plugins that enhance Neovim's functionality, PERFECTO-NVIM provides a robust set of tools for code navigation, syntax highlighting, autocompletion, and more. The carefully crafted keybindings optimize your workflow, allowing you to effortlessly navigate and manipulate your code with lightning-fast precision.
-
-But it doesn't stop there - PERFECTO-NVIM's configuration is highly customizable, allowing you to fine-tune your editing experience to suit your specific needs. Whether you're a seasoned Neovim user or just starting out, PERFECTO-NVIM offers a smooth and polished editing environment that will help you write code with speed, accuracy, and elegance.
-
-Join the ranks of satisfied developers who have unlocked the full potential of Neovim with PERFECTO-NVIM. Clone the repository from GitHub at github.com/t-aswath/PERFECTO-NVIM and experience the perfect balance of power and simplicity in your code editing workflow.  
+# my dot files if you are interested. 
 
 # Requirments
 
